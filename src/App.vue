@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#ffffff] min-h-screen">
+  <div class="bg-[#ffffff]">
   
     <!-- Navbar -->
     <NavBar />
@@ -19,7 +19,7 @@
 
     <BackTotop />
 
-    <Loader />
+    <Loading />
   </div>
 </template>
 
@@ -29,6 +29,7 @@ import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import BackTotop from './components/BackTotop.vue'
+import Loading from './components/Loading.vue'
 
 </script>
 
@@ -36,7 +37,8 @@ import BackTotop from './components/BackTotop.vue'
 
 *{
   scrollbar-width: thin;
-  scrollbar-color: #111827 #f1f1f1;
+  scrollbar-color: #15b8a6 #f1f1f1;
   scroll-behavior: smooth;
+  
 }
 </style>

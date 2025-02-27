@@ -16,7 +16,10 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@tailwindcss/vite": "^4.0.8",
     "aos": "^2.3.4",
+    "gsap": "^3.12.7",
     "vue": "^3.5.13",
+    "vue-loading-overlay": "^6.0.6",
+    "vue-spinner": "^1.0.4",
     "vue-typed": "^2.1.4",
     "vue-typed-js": "^0.1.2"
   },

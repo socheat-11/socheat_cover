@@ -2,7 +2,7 @@
   <button
     v-show="showButton"
     @click="scrollToTop"
-    class="fixed bottom-5 right-5 bg-[#f5fbfa] text-black hover:text-whitec h-12 w-12 rounded-full shadow-lg hover:bg-[#15b8a6] transition-all duration-300"
+    class="fixed bottom-5 right-5 bg-[#f5fbfa] text-black hover:text-white h-12 w-12 rounded-full shadow-lg hover:bg-[#15b8a6] transition-all duration-300"
   >
     ↑
   </button>
