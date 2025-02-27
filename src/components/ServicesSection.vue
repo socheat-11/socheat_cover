@@ -1,5 +1,5 @@
 <template>
-    <div class="py-5]">
+    <div class="py-[5]">
       <section class="max-w-screen-xl mx-auto p-4 py-10" id="service">
         <div class="flex flex-wrap items-center justify-between px-4 py-2">
             <h1 id="batdombong" class="text-[25px] text-[#000000] font-bold">
@@ -37,6 +37,10 @@
         </div>
       </section>
     </div>
+
+    <ServiceDetail />
+
+    <ServiceDashboard />
   </template>
   
   <script setup>
@@ -45,6 +49,8 @@
   import 'aos/dist/aos.css';
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   import { faCode, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+  import ServiceDashboard from './ServiceDashboard.vue';
+import ServiceDetail from './ServiceDetail.vue';
 
   
   // Initialize AOS animation

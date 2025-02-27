@@ -1,33 +1,28 @@
 <template>
-    <div class="bg-[#f5fbfa] py-28">
-        <section class="max-w-screen-xl mx-auto" id="hero">
-            <div class="flex flex-wrap py-10">
+    <div class="bg-[#f5fbfa] py-24">
+        <section class="max-w-screen-xl mx-auto mt-18" id="about">
+            <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 p-4 flex items-center justify-center">
-                    <div data-aos="zoom-in-down" data-aos-duration="2000" class="flex flex-col">
-                        <h2 class="text-[40px] text-[#002d5b] font-bold">Hello 👋 I'am Front-End Develper  <br>​​<span class="text-[#15b8a6]">And Web Develper</span> </h2>
-                        
-                        <p class="text-start leading-7 font-light">
-                        Hi, I'm <span class="font-normal text-[#002d5b]">Kin Socheat</span>, a passionate
-                        <span class="text-[#002d5b] font-normal">Frontend Web Developer</span> and
-                        <span class="text-[#002d5b] font-normal">Freelancer</span>.
-                        I specialize in building responsive, user-friendly, and modern websites using
-                        <span class="font-normal text-[#002d5b]">HTML, Tailwind CSS, Bootstrap, JavaScript,
-                            Angular,
-                            ReactJs, and Laravel</span>.
-                        With a strong foundation in frontend technologies, I strive to create seamless
-                        and visually appealing web experiences.
-                    </p>
-                        <div class="flex justify-start mt-5 items-center space-x-3 ">
-                        <!-- Added flex-wrap for responsiveness -->
-                        <button
-                            class="text-[#fff] rounded-[4px] relative h-[50px] w-40 overflow-hidden bg-[#15b8a6] border border-[#15b8a6]  px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
-                            <span class="relative z-0">Download CV</span>
-                        </button>
-                        <button
-                            class="text-black rounded-[4px] hover:before:bg-border-red-500 relative h-[50px] w-40 overflow-hidden bg-transparent border border-[#15b8a6] px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#15b8a6] before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
-                            <span class="relative z-0">Hire Me</span>
-                        </button>
+                    <div  data-aos="zoom-in-down" data-aos-duration="2000" class="flex flex-col">
+                        <h2 class="text-[45px] text-black font-bold">Get Creative & <br> Modern With Upcover</h2>
+                        <h3 class="text-gray-400 font-normal text-lg leading-relaxed">
+                            This is just a simple text made for this unique and
+                            awesome template, you can replace it with any text.
+                        </h3>
+                        <div>
+                            <button
+                                class="bg-[#15b8a6] mt-5 px-6 py-3 text-white font-semibold rounded-lg hover:bg-[#13a394] shadow-lg transition duration-300 ease-in-out flex items-center gap-2">
+                                Contact Us
+                                <FontAwesomeIcon class="text-[10px]" :icon="faChevronRight" />
+                            </button>
+                        </div>
                     </div>
+                </div>
+                <div class="w-full md:w-1/2 p-4">
+                    <div  data-aos="zoom-in-down" data-aos-duration="2000"  
+                        class="flex py-32 justify-center rounded-full items-center bg-[#ddf8f4]">
+                        <!-- Image -->
+                        <img src="../assets/bg.png" alt="" class="max-w-xs md:max-w-md lg:max-w-lg z-10">
                     </div>
                 </div>
             </div>
