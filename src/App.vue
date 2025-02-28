@@ -15,6 +15,10 @@
       <section id="services">
         <ServicesSection />
       </section>
+
+      <section id="testimonial">
+        <TestimonialSection />
+      </section>
     </div>
 
     <BackTotop />
@@ -28,6 +32,7 @@ import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
+import TestimonialSection from './components/TestimonialSection.vue'
 import BackTotop from './components/BackTotop.vue'
 import Loading from './components/Loading.vue'
 
