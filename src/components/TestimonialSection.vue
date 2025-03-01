@@ -5,7 +5,7 @@
     </h2>
 
     <div class="flex flex-wrap items-center justify-between px-4 py-2">
-            <h1 id="batdombong" class="text-[25px] text-[#000000] font-bold">
+            <h1  class="text-[25px] text-[#000000] font-bold">
               <span class="relative inline-block">
                 Services
                 <span class="absolute left-1/2 bottom-0 w-14 h-[3px] bg-[#15b8a6] -translate-x-1/2"></span>
