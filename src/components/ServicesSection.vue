@@ -80,6 +80,7 @@ import ServiceDetail from './ServiceDetail.vue';
     description: "Developing complete web applications with seamless front-end and back-end integration.",
     icon: faCode,
   },
+  
 
 ]);
 

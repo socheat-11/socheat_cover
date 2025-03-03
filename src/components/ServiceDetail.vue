@@ -11,7 +11,7 @@
                         class="cursor-pointer p-3 rounded-md transition-all duration-300"
                         :class="selectedItem.id === item.id 
                           ? 'bg-[#15b8a6]  border border-[#15b8a6] text-white' 
-                          : 'bg-gray-100 hover:text-[#15b8a6] border border-gray-300 hover:bg-[#f5fbfa]'"
+                          : ' hover:text-[#15b8a6] '"
                     >
                         <h2 class="text-lg font-semibold">{{ item.title }}</h2>
                         <h3 class="text-sm mt-3">{{ item.subtitle }}</h3>
@@ -43,9 +43,24 @@ export default {
     setup() {
         // Define items
         const items = ref([
-            { id: 1, title: "Step 1", subtitle: "SEO Audit 1", description: "We offer flexible and comprehensive online marketing plans 1", image: img1 },
-            { id: 2, title: "Step 2", subtitle: "SEO Audit 2", description: "We offer flexible and comprehensive online marketing plans 2", image: img2 },
-            { id: 3, title: "Step 3", subtitle: "SEO Audit 3", description: "We offer flexible and comprehensive online marketing plans 3", image: img1 }
+            {   id: 1, 
+                title: "Step 1", 
+                subtitle: "SEO Audit 1", 
+                description: "We offer flexible and comprehensive online marketing plans 1", 
+                image: img1 
+            },
+            {   id: 2, 
+                title: "Step 2", 
+                subtitle: "SEO Audit 2", 
+                description: "We offer flexible and comprehensive online marketing plans 2", 
+                image: img2 
+            },
+            {   id: 3, 
+                title: "Step 3", 
+                subtitle: "SEO Audit 3", 
+                description: "We offer flexible and comprehensive online marketing plans 3", 
+                image: img1 
+            },
         ]);
 
         // Track selected item

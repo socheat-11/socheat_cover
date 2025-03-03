@@ -48,25 +48,50 @@
           {
             title: "Educations",
             items: [
-              { name: "Bachelor's Computer Science", institution: "Royal University of Phnom Penh (2022 - 2025)", description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." },
-              { name: "High School Diploma", institution: "Hun Sen Tropang Tnoat High School (2019 - 2021)", description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." },
-              { name: "Secondary School Diploma", institution: "Hun Sen Tropang Tnoat High School (2016 - 2019)", description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." }
+              { 
+                name: "Bachelor's Computer Science", 
+                institution: "Royal University of Phnom Penh (2022 - 2025)", 
+                description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." 
+              },
+              { name: "High School Diploma", 
+                institution: "Hun Sen Tropang Tnoat High School (2019 - 2021)", 
+                description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." 
+              },
+              { name: "Secondary School Diploma", 
+                institution: "Hun Sen Tropang Tnoat High School (2016 - 2019)", 
+                description: "A secondary school diploma is also known as a high school diploma, high school degree, or certificate of secondary education." 
+              },
             ]
           },
           {
             title: "Software Skills",
             items: [
-              { name: "Skills Basic", details: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP"] },
-              { name: "Frameworks", details: ["Tailwind", "Angular", "Laravel PHP", "React [Medium]", "Vue [Medium]"] },
-              { name: "Tools", details: ["GitHub", "Postman", "Docker", "MySQL & XAMPP", "Microsoft Word / Excel"] }
+              { name: "Skills Basic", 
+                details: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP"] 
+              },
+              { name: "Frameworks", 
+                details: ["Tailwind", "Angular", "Laravel PHP", "React [Medium]", "Vue [Medium]"] 
+              },
+              { name: "Tools", 
+                details: ["GitHub", "Postman", "Docker", "MySQL & XAMPP", "Microsoft Word / Excel"] 
+              }
             ]
           },
           {
             title: "Experiences",
             items: [
-              { name: "Frontend Developer", institution: "CamCyber ICT Solution | Phnom Penh (July 2024 - Jan 2025)", details: ["Developed and maintained responsive user-friendly interfaces using HTML and CSS.", "Collaborated with the development team to implement consistent designs.", "Assisted in troubleshooting and resolving frontend issues for optimal performance."] },
-              { name: "Trainee Full Stack Development", institution: "CamCyber ICT Solution | Phnom Penh (Feb 2024 - May 2024)", details: ["Worked with PHP Laravel for the backend and Angular for frontend development.", "Developed web applications ensuring smooth integration between frontend and backend."] },
-              { name: "Trainee Basic Web Design", institution: "CamCyber ICT Solution | Phnom Penh (June 2023 - Oct 2023)", details: ["Learning basic web development concepts with HTML, CSS, JavaScript, Bootstrap, PHP, SQL, and XAMPP.", "Focus on static web design and basic web application development."] }
+              { name: "Frontend Developer", 
+                institution: "CamCyber ICT Solution | Phnom Penh (July 2024 - Jan 2025)", 
+                details: ["Developed and maintained responsive user-friendly interfaces using HTML and CSS.", "Collaborated with the development team to implement consistent designs.", "Assisted in troubleshooting and resolving frontend issues for optimal performance."] 
+              },
+              { name: "Trainee Full Stack Development", 
+                institution: "CamCyber ICT Solution | Phnom Penh (Feb 2024 - May 2024)", 
+                details: ["Worked with PHP Laravel for the backend and Angular for frontend development.", "Developed web applications ensuring smooth integration between frontend and backend."] 
+              },
+              { name: "Trainee Basic Web Design", 
+                institution: "CamCyber ICT Solution | Phnom Penh (June 2023 - Oct 2023)", 
+                details: ["Learning basic web development concepts with HTML, CSS, JavaScript, Bootstrap, PHP, SQL, and XAMPP.", "Focus on static web design and basic web application development."] 
+              }
             ]
           }
         ]
